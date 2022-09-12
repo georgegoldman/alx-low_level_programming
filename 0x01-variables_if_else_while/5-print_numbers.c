@@ -12,6 +12,6 @@ while (num < 10)
 printf("%i", num);
 num ++;
 }
-printf('\n');
+printf("\n");
 return (0);
 }
