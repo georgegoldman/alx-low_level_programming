@@ -6,7 +6,7 @@
 /* betty style doc for function main goes there */
 /**
 * main - this function assigns a random number to n
-* Returns : int 0
+* Return: int 0
 */
 int main(void)
 {
