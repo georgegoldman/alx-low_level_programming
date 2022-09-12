@@ -13,7 +13,7 @@ if (alphabet == 'q' || alphabet == 'e')
 {
 continue;
 }
-printf(alphabet);
+putchar(alphabet);
 }
 putchar('\n');
 return (0);
