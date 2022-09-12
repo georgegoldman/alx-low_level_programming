@@ -13,6 +13,7 @@ if (alphabet != 'q' || alphabet != 'e')
 {
 putchar(alphabet);
 }
+continue;
 }
 putchar('\n');
 return (0);
