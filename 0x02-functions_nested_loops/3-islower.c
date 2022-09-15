@@ -15,8 +15,8 @@ int _islower(int a)
 		{
 			i = 1;
 		}
-        	b++;
-	}
+		b++;
+       	}
 
 	return (i);
 }
