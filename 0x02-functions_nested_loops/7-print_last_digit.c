@@ -1,5 +1,3 @@
-#include "main.h"
-
 /**
  * print_last_digit - return the last digit of a function
  * @i: int
@@ -14,7 +12,7 @@ int print_last_digit(int i)
 		_putchar('0'+getThelastInt);
 		return (getThelastInt);
 	}
-	int getThelastInt = i % 10;
-	_putchar('0'+getThelastInt);
+	int getthelastInt = i % 10;
+	_putchar('0'+getthelastInt);
 	return (getThelastInt);
 }
