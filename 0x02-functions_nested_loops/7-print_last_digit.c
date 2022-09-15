@@ -9,12 +9,12 @@ int print_last_digit(int i)
 {
 	if (i < 0)
 	{
-		unsigned int positiveVal = (i * -1);
+		int positiveVal = (i * -1);
 		int getThelastInt = positiveVal % 10;
 		_putchar('0'+getThelastInt);
 		return (getThelastInt);
 	}
-	unsigned int getThelastInt = i % 10;
+	int getThelastInt = i % 10;
 	_putchar('0'+getThelastInt);
 	return (getThelastInt);
 }
