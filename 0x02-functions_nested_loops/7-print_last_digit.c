@@ -10,7 +10,7 @@ int print_last_digit(int i)
 	if (i < 0)
 	{
 		unsigned int positiveVal = (i * -1);
-		int getthelastInt = positiveVal % 10;
+		int getThelastInt = positiveVal % 10;
 		_putchar('0'+getThelastInt);
 		return (getThelastInt);
 	}
