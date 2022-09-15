@@ -1,11 +1,13 @@
 /**
  * _islower - check latter case
  * Return: int
+ * @b: char
+ * @i: int
  */
 int _islower(int a)
 {
 	char b = 'a';
-	int i;
+	int i = 0;
 
 	while (b <= 'z')
 	{
