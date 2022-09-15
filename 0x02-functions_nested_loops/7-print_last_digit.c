@@ -7,6 +7,8 @@
  */
 int print_last_digit(int i)
 {
+	int f = i % 10;
+
 	if (i < 0)
 	{
 		int positiveVal = (i * -1);
@@ -14,7 +16,6 @@ int print_last_digit(int i)
 		_putchar('0'+getThelastInt);
 		return (getThelastInt);
 	}
-	int f = i % 10;
 	_putchar('0'+f);
 	return (f);
 }
