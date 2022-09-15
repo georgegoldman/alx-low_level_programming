@@ -13,7 +13,7 @@ int _islower(int c)
 		{
 			i = 1;
 		}
-		b++;
+		c++;
 	}
 	return (i);
 }
