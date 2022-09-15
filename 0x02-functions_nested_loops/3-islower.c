@@ -7,6 +7,7 @@ int _islower(int c)
 {
 	char a = 'a';
 	int i = 0;
+
 	while (a <= 'z')
 	{
 		if (a == c)
