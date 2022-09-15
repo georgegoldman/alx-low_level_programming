@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- * main - check signed numbers
+ * print_sign - check signed numbers
  * @n: int
  * Return: signed int
  */
 int print_sign(int n)
 {
 	signed int returnval = 0;
+
 	if (n > 0)
 	{
 		_putchar('+');
