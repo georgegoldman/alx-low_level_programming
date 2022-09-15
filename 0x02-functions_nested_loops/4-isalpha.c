@@ -1,5 +1,5 @@
 /**
- * main - alphacheck console app
+ * _isalpha - alphacheck console app
  * @c: int argv
  * Return: int
  */
@@ -11,7 +11,7 @@ int _isalpha(int c)
 
 	while (lowercase <= 'z' || uppercase <= 'Z')
 	{
-		if(lowercase == c || uppercase == c)
+		if (lowercase == c || uppercase == c)
 		{
 			i = 1;
 		}
