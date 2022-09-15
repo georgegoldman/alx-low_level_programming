@@ -1,22 +1,19 @@
 /**
- * _islower - check latter case
- * @b: char
- * @i: int
+ * _islower - check alphabet lower case
+ * @c: First operand
  * Return: int
  */
-int _islower(int a)
+int _islower(int c)
 {
-	char b = 'a';
+	char a = 'a';
 	int i = 0;
-
-	while (b <= 'z')
+	while (a <= 'z')
 	{
 		if (a == b)
 		{
 			i = 1;
 		}
 		b++;
-       	}
-
+	}
 	return (i);
 }
