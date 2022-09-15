@@ -7,9 +7,14 @@
  */
 int print_last_digit(int i)
 {
-	int get_abs = _abs(i);
-
-	unsigned int getThelastInt = get_abs % 10;
+	if (i < 0)
+	{
+		unsigned int positiveVal = (i * -1);
+		int getthelastInt = positive % 10;
+		_putchar('0'+getThelastInt);
+		return (getThelastInt);
+	}
+	unsigned int getThelastInt = i % 10;
 	_putchar('0'+getThelastInt);
 	return (getThelastInt);
 }
