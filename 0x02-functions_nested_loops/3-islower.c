@@ -1,8 +1,8 @@
 /**
  * _islower - check latter case
- * Return: int
  * @b: char
  * @i: int
+ * Return: int
  */
 int _islower(int a)
 {
