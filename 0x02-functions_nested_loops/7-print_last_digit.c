@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * print_last_digit - return the last digit of a function
  * @i: int
