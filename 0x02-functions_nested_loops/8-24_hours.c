@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * void jack_bauer - minutes and hour counter
+ * jack_bauer - minutes and hour counter
  * Return: void
  */
 void jack_bauer(void)
@@ -14,7 +14,7 @@ void jack_bauer(void)
 		{
 			min_rm = min % 10;
 			hr_rm = hr % 10;
-			_putchar(hr/10 + '0');
+			_putchar(hr / 10 + '0');
 			_putchar(hr_rm + '0');
 			_putchar(':');
 			_putchar(min / 10 + '0');
