@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _strcpy - cute func 
+ * _strcpy - cute func
  * @dest: char*
  * @src: char*
  * Return: char*
