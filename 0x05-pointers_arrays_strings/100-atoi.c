@@ -2,7 +2,7 @@
 #include "main.h"
 
 /*
- * _atoi - cool func
+ * _atoi - a function that convert a string to an integer.
  * @s: char*
  * Return: int
  */
@@ -26,8 +26,7 @@ int _atoi(char *s)
 		do {
 			num = num * 10 + (*temp - '0');
 			temp++;
-		}
-		while (*temp >= '0' && *temp <= '9');
+		} while (*temp >= '0' && *temp <= '9');
 	}
 	return (num * sign);
 }
